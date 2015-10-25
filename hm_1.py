@@ -24,6 +24,7 @@ def SortAndCount(a):
     merged, z = MergeAndCountSplit(left, right)
     return merged, x + y + z
 
+
 fileName = 'IntegerArray.txt'
 numbers = [int(line.rstrip('\r\n')) for line in open(fileName)]
 
