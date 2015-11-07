@@ -33,16 +33,8 @@ def MinCut(edges, vertices):
     prev = len(vertices)
     while len(vertices) > 2:
         randomEdge = GetRandomEdge(edges)
-        # print randomEdge.u
-        # print randomEdge.v.adjacent
-        # print randomEdge.v
         Contract(edges, vertices, randomEdge)
-        # print '*********'
         if len(vertices) == prev:
-            # print randomEdge
-            # print vertices
-            # print edges
-            # print '-----------'
             return len(edges)
         else:
             prev = len(vertices)
