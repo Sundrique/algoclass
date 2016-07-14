@@ -71,4 +71,4 @@ if __name__ == '__main__':
         A[minLabel] = minWeight
 
     keys = ['7', '37', '59', '82', '99', '115', '133', '165', '188', '197']
-    print ','.join([str(A[k]) for k in keys])
+    print(','.join([str(A[k]) for k in keys]))

@@ -11,4 +11,4 @@ for t in range(min, max + 1):
             count += 1
             break
 
-print count
+print(count)

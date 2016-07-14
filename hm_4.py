@@ -103,4 +103,4 @@ if __name__ == '__main__':
             break
         node = node.next
 
-    print sorted(SCCs, reverse=True)[:10]
+    print(sorted(SCCs, reverse=True)[:10])
